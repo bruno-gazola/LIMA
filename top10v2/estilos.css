@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(24, 94, 155);
+}
+
+img{
+    width:100%;              /*Largura da imagem.*/
+    opacity: 100%;           /*opacidade /transparência da imagem*/
+    border: 4px dashed;
+    border-color: rgb(45, 139, 221);
+}
+/*
+    #img1{
+        zoom: 1;
+    }
+
+    #img1:hover{
+        zoom: 1.50;
+    }
+*/
+    *{                       /*se aplica a toda a página*/
+        text-align: center;
+    }
+    
+    img:hover{
+        opacity:100%;
+        filter:grayscale();
+}
+
+h1{
+    color: aqua;
+    text-align: center;
+}
+
+h2{
+    color: honeydew;
+}
+
+p{
+    color: azure;
+
+    font-family: cursive;
+}
