@@ -1,0 +1,41 @@
+    body{
+        Background-color: #232323;
+    }
+
+    img{
+        width: 70%;        /*Largura da imagem.*/
+        height: 40%;       /*Altura da imagem.*/
+        opacity: 75%;
+        border: 8px solid;
+        border-color: white;
+    }
+
+    div{
+        text-align: center;
+    }
+
+
+    #img:hover{
+        zoom: 1.25;
+        opacity: 100%;
+        filter: saturate(1.05);
+    }
+
+    #h1{
+        zoom: 1.25;
+        text-align: center;
+        color: red;
+        font-family: Verdana, Geneva, Tahoma, sansserif;
+    }
+
+    h2{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+    }
+
+    p{
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: bisque;
+        filter: saturate(1.05);
+
+    }
